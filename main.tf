@@ -1,5 +1,5 @@
 resource "ibm_container_vpc_cluster" "cluster" {
-  name              = "***my_vpc_cluster"
+  name              = "my_vpc_cluster"
   vpc_id            = "6015365a-9d93-4bb4-8248-79ae0db2dc21"
   flavor            = "c2.2x4"
   worker_count      = "1"
